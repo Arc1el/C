@@ -1,4 +1,4 @@
-ex 2-1
+ex 2-1 printf함수
 ```c
 #include <stdio.h>
 int main ()
@@ -9,7 +9,7 @@ int main ()
 }
 ```
 
-ex 2-3
+ex 2-3 특수문자
 ```c
 #include <stdio.h>
 int main ()
@@ -23,7 +23,7 @@ int main ()
 }
 ```
 
-ex 2-4
+ex 2-4 숫자 출력하기
 ```c
 #include <stdio.h>
 int main ()
@@ -32,6 +32,18 @@ int main ()
 	printf("%o 더하기 %i 는 %i 입니다.\n", 3, 5, 3+5);
 	printf("%d - %d 는 %d 입니다.\n", 3, 5, 3+5);
 	printf("%i - %i 는 %i 입니다.\n", 3, 5, 3+5);
+
+	return 0;
+}
+```
+ex 2-5
+```c
+#include <stdio.h>
+int main ()
+{
+	printf("10진수 : %d는 16wlstn : %x, 8진수 : %o입니다. \n", 50, 50, 50);
+	printf("10진수 : %d는 16wlstn : %x, 8진수 : %o입니다. \n", -50, -50, -50);
+	//16진수와 8진수는 음수표현 불가
 
 	return 0;
 }
